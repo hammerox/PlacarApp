@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">PlacarApp</string>
+    <string name="app_name">ScoreApp</string>
+    <string name="game_goal">GOAL</string>
+    <string name="main_times">Teams</string>
+    <string name="main_hometeam">Away Team</string>
+    <string name="main_name">Team Name</string>
+    <string name="main_awayteam">Home Team</string>
+    <string name="main_hintname">Name</string>
+    <string name="main_startgame">Start Game</string>
 </resources>

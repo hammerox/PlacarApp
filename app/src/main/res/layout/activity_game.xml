@@ -50,12 +50,12 @@
         <Button
             android:id="@+id/button_game_goal1"
             style="@style/BaseCenterView"
-            android:text="GOL"/>
+            android:text="@string/game_goal"/>
 
         <Button
             android:id="@+id/button_game_goal2"
             style="@style/BaseCenterView"
-            android:text="GOL"/>
+            android:text="@string/game_goal"/>
 
     </LinearLayout>
 

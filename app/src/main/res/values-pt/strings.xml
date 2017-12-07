@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PlacarApp</string>
+    <string name="main_awayteam">Time Visitante</string>
+    <string name="main_hometeam">Time da Casa</string>
+    <string name="main_name">Nome do Time</string>
+    <string name="main_times">Times</string>
+    <string name="game_goal">GOL</string>
+    <string name="main_hintname">Nome</string>
+    <string name="main_startgame">Começar Jogo</string>
+</resources>
