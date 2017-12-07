@@ -7,6 +7,12 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.github.amlcurran.showcaseview.ShowcaseView;
+import com.github.amlcurran.showcaseview.targets.ActionItemTarget;
+import com.github.amlcurran.showcaseview.targets.ActionViewTarget;
+import com.orhanobut.logger.AndroidLogAdapter;
+import com.orhanobut.logger.Logger;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,11 +23,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Logger.d("ABRIU");
         team1 = (EditText) findViewById(R.id.edittext_main_team1);
         team2 = (EditText) findViewById(R.id.edittext_main_team2);
     }
 
     public void comecarJogo(View view) {
+        Logger.d("CLIQUE");
         if (team1.getText().toString().isEmpty()) {
             Toast.makeText(this, "Preencha o time da casa", Toast.LENGTH_SHORT).show();
         } else {

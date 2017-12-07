@@ -18,18 +18,45 @@
 
         <TextView
             android:id="@+id/textview_game_team1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/BaseCenterView"
             tools:text="TIME CASA"/>
 
         <TextView
             android:id="@+id/textview_game_team2"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            tools:text="TIME VISITANTE"
-            android:gravity="right"/>
+            style="@style/BaseCenterView"
+            tools:text="TIME VISITANTE" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textview_game_score1"
+            style="@style/ScoreTextView"
+            tools:text="0"/>
+
+        <TextView
+            android:id="@+id/textview_game_score2"
+            style="@style/ScoreTextView"
+            tools:text="0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_game_goal1"
+            style="@style/BaseCenterView"
+            android:text="GOL"/>
+
+        <Button
+            android:id="@+id/button_game_goal2"
+            style="@style/BaseCenterView"
+            android:text="GOL"/>
+
     </LinearLayout>
 
 </LinearLayout>
